@@ -1,5 +1,5 @@
 const http = require("http");
-
+alert('1');
 const config = require("platformsh-config").config();
 const mysql = require("mysql2/promise");
 
