@@ -18,6 +18,10 @@ relationships:
   database: "db:mysql"
 
 # The configuration of app when it is exposed to the web.
+hooks:
+    build: |
+        yarn add socket.io
+        npm run build  
 web:
   commands:
    start: "node index.js"
