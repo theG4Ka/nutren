@@ -21,7 +21,8 @@ relationships:
 hooks:
     build: |
         npm install socket.io
-        npm install express 
+        npm install express
+        npm i moment
 web:
   commands:
    start: "node index.js"
