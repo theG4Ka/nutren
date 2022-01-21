@@ -20,6 +20,7 @@ relationships:
 # The configuration of app when it is exposed to the web.
 hooks:
     build: |
+        npm install --save path
         npm install socket.io
         npm install express
         npm i moment
